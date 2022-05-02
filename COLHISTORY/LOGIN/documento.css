@@ -1,0 +1,98 @@
+/*documento css*/
+@charset "utf-8"}
+
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .limpiar{
+ 	clear: both;
+ }
+ /*----menu----*/
+
+ header{
+ 	margin: auto;
+ 	position: relative;
+ 	width: 80%;
+ 	/*background-color: yellow;*/
+
+ }
+ nav{
+display: block;
+margin: auto;
+padding: 0px;
+background: #646b63;
+width: 50%;
+height: 45px;
+/*border: groove 10px gold;
+border-radius: 10px;*/
+}
+
+ nav ul{
+ 	display: block;
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0px;
+ 	/*background: red;*/
+ 	width: 100%;
+ 	height: 45px;
+ }
+
+ nav li{
+ 	float: left;
+ 	
+ }
+ nav a{
+ 	color: #FFF;
+ 	font-family: arial;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	display: block;
+ 	padding: 0px 15px;
+ 	line-height: 45px;
+ 	vertical-align: middle;
+ 	text-decoration: none;
+
+ }
+nav a:hover{
+	color: #000;
+	background: #b7d068;
+	transition: all 0.7s;
+}
+#contenedor{
+	margin: auto;
+	margin-top: 15px;
+	position: relative;
+	width: 80%;
+	background: none;
+}
+table{
+	margin: auto;
+	text-align: left;
+	background: #ccff66;
+	width: 50%;
+	border: 2px dashed #cc0000;
+}
+ td{
+ 	padding: 5px;
+ }
+ h2{
+ 	color: #0033FF;
+ 	margin-top:10px;
+ 	margin-bottom: 10px;
+ }
+  input{
+  	width: 50%;
+  }
+ #registrar ,#verusuarios, #actualizar ,#eliminar, #buscar{
+ 	width: auto;
+ 	height: auto;
+ 	margin-right: 10px;
+ 	padding: 2px;
+ 	font-weight: bold;
+
+ }
+
+
+

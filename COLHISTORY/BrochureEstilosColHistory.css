@@ -1,0 +1,51 @@
+/**/
+
+
+body {
+	background-color: yellow;
+	background-size: 1440px;
+	font-family: cursive;
+}
+
+div#ObjetivoGeneral {
+	margin: 10px;
+	padding: 10px;
+	background-color: blue; 
+	width: 1300px;
+	height: 140px;
+}
+h2#ObjetivoGeneral {
+	.
+}
+div#ObjetivoGeneral p {
+	.
+}
+
+div#ObjetivosEspecificos {
+	margin: 10px;
+	padding: 10px;
+	background-color: red;
+	width: 530px;
+}
+
+h2#ObjetivosEspecificos {
+	.
+}
+
+div#ObjetivosEspecificosMenor {
+	.
+}
+
+p#ObjetivosEspecificosParrafo {
+	.
+}
+
+div#Antecedentes {
+	margin-top: -498px;
+	margin-left: 570px;
+	margin-right: 12px;
+	padding: 10px;
+	height: 467px;
+	position: absolute;
+	background-color: green;
+}

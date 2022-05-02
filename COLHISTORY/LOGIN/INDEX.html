@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="es">
+	<meta charset="utf-8">
+	<title> Login </title>
+	<link rel="stylesheet" type="text/css" href="documento.css">
+
+</head>
+<body>
+	<header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="inicio.html"> Inicio</a></li>
+					<li><a href="Login.html">Login</a></li>
+				</ul>
+			
+			</nav>
+		</section>
+	</header>
+
+	<div id="contenedor">
+		<!--IMG--> 
+		<h2 align="center">Registro Usuarios</h2>
+		<form name="registro_usuario" method="post">
+			<table>
+				<tr>
+					<td>Nombre:</td>
+					<td><input type="text" name="nombre" id="nombre" placeholder=" Escriba aqui su Nombre"></td>
+					
+				</tr>
+				<tr>
+					<td>Apellido:</td>
+					<td><input type="text" name="apellido" id="apellido" placeholder=" Escriba aqui su apellido"></td>
+					
+				</tr>
+				<tr>
+					<td>Edad:</td>
+					<td><input type="number" min="0" max="120" step="1" name="edad"  id="edad" placeholder=" Escriba o seleccione se Edad"></td>
+					
+				</tr>
+				<tr>
+					<td>Usuario</td>
+					<td><input type="text" name="usuario" id="usuario" placeholder=" Escriba aqui su Nombre de Usuario"></td>
+					
+				</tr>
+				<tr>
+					<td>Contraseña</td>
+					<td><input type="password" name="contraseña" id="contraseña" placeholder=" Escriba aqui su contaseña"></td>
+					
+				</tr>
+				<tr>
+					<td>
+						<input type="button" name="verUsuarios" id="verusuarios" value="ver usuario" >
+					</td>
+					<td>
+						<input type="button" name="registrar" id="registrar" value="Registrar" >
+						<input type="button" name="buscar" id="buscar" value="Buscar" >	
+						<input type="button" name=actualizar id="actualizar" value="Actualizar">
+						<input type="button" name="eliminar" id="eliminar" value="Eliminar">
+
+					</td>
+					
+				</tr>
+		
+
+			</table>
+		</form>
+		<div class="limpiar"></div>
+	</div>
+
+
+</body>
+</html>
